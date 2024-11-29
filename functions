@@ -14,14 +14,21 @@ for line in sys.stdin:
     try:
         angle_deg = float(line)
         x = angle_deg
+
     except ValueError:        
         continue
 
-    # ラジアンに変換
     angle_radians = math.radians(x)
     y = angle_radians
 
-    # 三角関数の計算
+    sin = round(math.sin(y), 5)
+    cos = round(math.cos(y), 5)
+    except ValueError:
+        continue
+
+    angle_radians = math.radians(x)
+    y = angle_radians
+
     sin = round(math.sin(y), 5)
     cos = round(math.cos(y), 5)
 
