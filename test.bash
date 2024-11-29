@@ -3,13 +3,10 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
-<<<<<<< HEAD
 	echo ${1}行目が違う
 	res = 1
-=======
         echo ${1}行目が違う
         res = 1
->>>>>>> a367e7f68ee691f24ed5483902dca8aac2c03eab
 }
 res=0
 
