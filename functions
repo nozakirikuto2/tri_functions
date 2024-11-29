@@ -15,7 +15,6 @@ for line in sys.stdin:
         angle_deg = float(line)
         x = angle_deg
     except ValueError:
-        print(f"数字ではないものを入力しました: {line}")
         continue
 
     angle_radians = math.radians(x)
