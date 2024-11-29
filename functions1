@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Rikuto Nozaki
+
+import math
+
+angle_deg = float(input("角度を記入"))
+x = angle_deg
+angle_radians = math.radians(x)
+y = angle_radians
+
+sin = round(math.sin(y), 5)
+cos = round(math.cos(y), 5)
+tan = round(math.tan(y), 5)
+
+print(f"角度: {x}度")
+print(f"sin({x}) = {sin}")
+print(f"cos({x}) = {cos}")
+print(f"tan({x}) = {tan}")
