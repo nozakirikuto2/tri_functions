@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Rikuto Nozaki
+# SPDX-License-Identifire: BSD-3-Clause
+
+import math
+import sys
+
+
+for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue
+
+    try:
+        angle_deg = float(line)
+        x = angle_deg
+    except ValueError:
+        print(f"数字ではないものを入力しました: {line}")
+        continue
+
+    # ラジアンに変換
+    angle_radians = math.radians(x)
+    y = angle_radians
+
+    # 三角関数の計算
+    sin = round(math.sin(y), 5)
+    cos = round(math.cos(y), 5)
+
+    if cos == 0:
+        tan = "無限大"
+    else:
+        tan = round(math.tan(y), 5)
+
+    print(f"角度: {x}度")
+    print(f"sin({x}) = {sin}")
+    print(f"cos({x}) = {cos}")
+    print(f"tan({x}) = {tan}")
+    print()
+
