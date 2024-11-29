@@ -20,11 +20,9 @@ out=$( echo www | ./functions)
 
 # 空入力
 out=$( echo "" | ./functions)
-<<<<<<< HEAD
 [ "{out}" = $("数字ではないものが入力されています") || ng "$LINENO"　 
 =======
-[ "{out}" = $("数字ではないものが入力されています") || ng "$LINENO"　
->>>>>>> a367e7f68ee691f24ed5483902dca8aac2c03eab
+[ "{out}" = $("数字ではないものが入力されています") || ng "$LINENO"
 
 # テスト結果
 [ "${res}" = 0 ] && echo OK
