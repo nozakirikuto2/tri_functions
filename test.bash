@@ -3,8 +3,13 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
+<<<<<<< HEAD
 	echo ${1}行目が違う
 	res = 1
+=======
+        echo ${1}行目が違う
+        res = 1
+>>>>>>> a367e7f68ee691f24ed5483902dca8aac2c03eab
 }
 res=0
 
@@ -18,7 +23,11 @@ out=$( echo www | ./functions)
 
 # 空入力
 out=$( echo "" | ./functions)
+<<<<<<< HEAD
 [ "{out}" = $("数字ではないものが入力されています") || ng "$LINENO"　 
+=======
+[ "{out}" = $("数字ではないものが入力されています") || ng "$LINENO"　
+>>>>>>> a367e7f68ee691f24ed5483902dca8aac2c03eab
 
 # テスト結果
 [ "${res}" = 0 ] && echo OK
