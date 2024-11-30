@@ -21,7 +21,7 @@ git clone https://github.com/nozakirikuto2/tri_functions.git
 
 - ディレクトリに移動
 
-cd tri_functions
+cd try
 
 ## 必要なソフトウェア
 
