@@ -18,7 +18,9 @@
 
 - リポジトリをクローン
 
-```git clone https://github.com/nozakirikuto2/tri_functions.git```
+```
+git clone https://github.com/nozakirikuto2/tri_functions.git
+```
 
 - ディレクトリに移動
 
