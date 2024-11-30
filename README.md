@@ -15,7 +15,7 @@
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
-```bash
+
 リポジトリをクローン
 git clone https://github.com/nozakirikuto2/tri_functions.git
 
@@ -23,13 +23,15 @@ git clone https://github.com/nozakirikuto2/tri_functions.git
 cd repository
 
 ## 必要なソフトウェア
+
 - Python
    - テスト済みバージョン: 3.7~3.10
 
 ## テスト環境
+
 - Ubuntu 22.04 LTS
 
-## 使い方
+## 実行方法
 
 実行方法の例
 
@@ -40,6 +42,7 @@ cd repository
 ```echo -e "整数\n整数\n整数\n" | ./functions```
 
 ## クレジット
+
 (使用したライブラリや貢献者の名前を記す。)
 ・使用したライブラリ:
 	mathモジュールとsysモジュール
