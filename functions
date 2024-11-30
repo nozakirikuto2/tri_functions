@@ -16,6 +16,7 @@ for line in sys.stdin:
         x = angle_deg
 
     except ValueError:        
+        print(f"数字ではないものが入力されています: {line}")
         continue
 
     angle_radians = math.radians(x)
@@ -23,8 +24,6 @@ for line in sys.stdin:
 
     sin = round(math.sin(y), 5)
     cos = round(math.cos(y), 5)
-    except ValueError:
-        continue
 
     angle_radians = math.radians(x)
     y = angle_radians
