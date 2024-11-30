@@ -16,11 +16,11 @@
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
 リポジトリをクローン
-'''git clone https://github.com/nozakirikuto2/tri_functions.git'''
+```git clone https://github.com/nozakirikuto2/tri_functions.git```
 
 - ディレクトリに移動
 
-'''cd try'''
+```cd try```
 
 ## 必要なソフトウェア
 
