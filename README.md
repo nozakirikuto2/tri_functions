@@ -1,4 +1,5 @@
 # 三角関数コマンド
+![test](https://github.com/rikutonozaki/robosys2024/actions/test.yml/babadge.svg)
 
 標準入力から読み込んだ角度の大きさをsin,cos,tanの順で関数を出す。
 
