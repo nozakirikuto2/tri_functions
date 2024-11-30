@@ -19,8 +19,9 @@
 リポジトリをクローン
 git clone https://github.com/nozakirikuto2/tri_functions.git
 
-ディレクトリに移動
-cd repository
+- ディレクトリに移動
+
+cd tri_functions
 
 ## 必要なソフトウェア
 
@@ -35,18 +36,20 @@ cd repository
 
 実行方法の例
 
-・関数を一つだけ出したいとき
+- 関数を一つだけ出したいとき
+
 ```echo 整数 | ./functions```
 
-・関数を複数だしたいとき(３つ出すとき)
+- 関数を複数だしたいとき(３つ出すとき)
+
 ```echo -e "整数\n整数\n整数\n" | ./functions```
 
 ## クレジット
 
 (使用したライブラリや貢献者の名前を記す。)
-・使用したライブラリ:
+- 使用したライブラリ:
 	mathモジュールとsysモジュール
-・貢献者
+- 貢献者:
 	Rikuto Nozaki
 
 ## ライセンスと著作権
