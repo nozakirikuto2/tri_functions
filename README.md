@@ -15,13 +15,12 @@
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
-
 リポジトリをクローン
-git clone https://github.com/nozakirikuto2/tri_functions.git
+'''git clone https://github.com/nozakirikuto2/tri_functions.git'''
 
 - ディレクトリに移動
 
-cd try
+'''cd try'''
 
 ## 必要なソフトウェア
 
@@ -44,17 +43,6 @@ cd try
 
 ```echo -e "整数\n整数\n整数\n" | ./functions```
 
-## クレジット
-
-(使用したライブラリや貢献者の名前を記す。)
-- 使用したライブラリ:
-	mathモジュールとsysモジュール
-- 貢献者:
-	Rikuto Nozaki
-
 ## ライセンスと著作権
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再分布および使用が許可されています。
 - © 2024 Rikuto Nozaki
-
-DuC
-
