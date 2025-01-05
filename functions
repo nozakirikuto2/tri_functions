@@ -36,8 +36,6 @@ for line in sys.stdin:
     else:
         tan = round(math.tan(y), 5)
 
-    print(f"角度: {x}度")
     print(f"sin({x}) = {sin}")
     print(f"cos({x}) = {cos}")
     print(f"tan({x}) = {tan}")
-    print()
