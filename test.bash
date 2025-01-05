@@ -17,7 +17,7 @@ get="sin(45) = 0.70701
 
 # 異常な入力
 
-out=$( echo www | ./functions)
+out=$( echo www | ./functions )
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
@@ -25,7 +25,11 @@ out=$( echo "" | ./functions)
 [ "$?"  = 1 ]     || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$( echo 45? | ./functions)
+out=$( echo 45? | ./functions )
+[ "$?" = 1 ]      || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$( echo -e "45g\n30\nrrr\n" | ./functions )
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 

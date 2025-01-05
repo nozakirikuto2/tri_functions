@@ -16,7 +16,6 @@ for line in sys.stdin:
         x = angle_deg
 
     except ValueError:        
-        print(f"数字ではないものが入力されています: {line}")
         continue
 
     angle_radians = math.radians(x)
@@ -32,7 +31,7 @@ for line in sys.stdin:
     cos = round(math.cos(y), 5)
 
     if cos == 0:
-        tan = "無限大"
+        tan = "∞"
     else:
         tan = round(math.tan(y), 5)
 
